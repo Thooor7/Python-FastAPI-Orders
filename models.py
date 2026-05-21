@@ -18,7 +18,7 @@ class Usuario(Base):
     ativo = Column("ativo", Boolean, default=True)
     admin = Column("admin", Boolean, default=False)
     
-    def __init__(self, nome, email, senha, ativo, admin):
+    def __init__(self, nome, email, senha, ativo = True, admin = True):
         self.nome = nome
         self.email = email
         self.senha = senha
