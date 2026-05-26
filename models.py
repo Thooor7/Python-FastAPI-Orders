@@ -40,7 +40,7 @@ class Pedido(Base):
     usuario = Column("usuario", ForeignKey("usuarios.id"))
     preco = Column("preco", Float)
 
-    def __init__(self, status, usuario="PENDENTE", preco="0.0"):
+    def __init__(self, status="PENDENTE", usuario=None, preco="0.0"):
         self.status = status
         self.usuario = usuario
         self.preco = preco
