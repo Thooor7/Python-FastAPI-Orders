@@ -1,0 +1,40 @@
+# Python cache and artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+.env/
+.env
+.env.*
+
+# SQLite database file
+banco.db
+*.sqlite3
+*.db
+
+# IDE/editor files
+.vscode/
+*.swp
+*.swo
+
+# Logs
+*.log
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Byte-compiled / optimized / DLL files
+*.pyc
+*.pyo
+*.pyd
+
+# Alembic runtime artifacts
+alembic.ini
+
+# Remove if you want to keep alembic.ini in repo
+# Uncomment the line above only when alembic.ini contains secrets or local-only config
