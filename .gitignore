@@ -35,6 +35,8 @@ dist/
 
 # Alembic runtime artifacts
 alembic.ini
+alembic/env.py
+alembic/versions/
 
 # Remove if you want to keep alembic.ini in repo
 # Uncomment the line above only when alembic.ini contains secrets or local-only config
